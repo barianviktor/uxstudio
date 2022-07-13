@@ -1,0 +1,212 @@
+.ButtonIconLabelPrimary{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 2px  16px 2px  12px;
+    gap: 8px;
+    min-width: 119px;
+    width: 100%;
+    max-width: 164px;
+    height: 40px;
+    background: var(--button-default-color);
+    border-radius: 8px;
+    transition: all 0.2s ease-out;
+    border: none;
+    cursor: pointer;
+}
+
+.ButtonIconLabelPrimary svg{
+    width: 15px;
+    height: 15px;
+    fill: rgb(255, 255, 255) !important;
+}
+.ButtonIconLabelPrimary:hover{
+    background: var(--button-hover-color);
+}
+.ButtonIconLabelPrimary:active{
+    background: var(--button-active-color);
+}
+
+.ButtonIconLabelSecondary{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px 8px 12px;
+    gap: 8px;
+    width: 119px;
+    height: 40px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: all 0.2s ease-out;
+
+}
+.ButtonIconLabelSecondary:hover{
+    background: var(--grey-101-color);
+}
+.ButtonIconLabelSecondary:active{
+    background: var(--grey-102-color);
+}
+.ButtonIconLabelSpecial svg{
+    width: 15px;
+    height: 15px;
+    fill: rgb(255, 255, 255) !important;
+}
+.ButtonIconLabelSpecial{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    padding: 2px  16px 2px  12px;
+    gap: 8px;
+    width: 119px;
+    height: 40px;
+    background: linear-gradient(180deg, rgba(40, 40, 40, 0.7) 0%, #282828 100%), #141414;
+    border-radius: 1000px;
+    transition: all 0.2s ease-out;
+
+    border: none;
+    cursor: pointer;
+}
+.ButtonIconLabelSpecial:hover{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04)), linear-gradient(180deg, rgba(40, 40, 40, 0.7) 0%, #282828 100%), #141414;
+}
+.ButtonIconLabelSpecial:active{
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.04), rgba(255, 255, 255, 0.04)), linear-gradient(180deg, rgba(40, 40, 40, 0.7) 0%, #282828 100%), #141414;
+}
+
+.ButtonLabelPrimary{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 8px;
+    width: 91px;
+    height: 40px;
+    background: var(--button-default-color);
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.2s ease-out;
+
+}
+.ButtonLabelPrimary:hover{
+    background: var(--button-hover-color);
+}
+.ButtonLabelPrimary:active{
+    background: var(--button-active-color);
+}
+.ButtonLabelSecondary{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 16px;
+    gap: 8px;
+    width: 91px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background: transparent;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+}
+.ButtonLabelSecondary:hover{
+    background: var(--grey-101-color);
+}
+.ButtonLabelSecondary:active{
+    background: var(--grey-102-color);
+}
+.ButtonIconPrimary svg{
+    width: 20px;
+    height: 20px;
+    fill: var(--text-100-color) !important;
+}
+.ButtonIconPrimary{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    background: var(--button-default-color);
+    border-radius: 8px;
+    border: none;
+    transition: all 0.2s ease-out;
+
+    cursor: pointer;
+}
+.ButtonIconPrimary:hover{
+    background: var(--button-hover-color);
+}
+.ButtonIconPrimary:active{
+    background: var(--button-active-color);
+}
+.ButtonIconSecondary svg{
+    width: 24px;
+    height: 24px;
+    fill: var(--text-100-color) !important;
+}
+
+.ButtonIconSecondary{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    gap: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background: transparent;
+    border: none;
+    transition: all 0.2s ease-out;
+    cursor: pointer;
+
+}
+.ButtonIconSecondary:hover{
+    background: var(--grey-101-color);
+}
+.ButtonIconSecondary:active{
+    background: var(--grey-102-color);
+}
+.ButtonIconSecondary:focus{
+    background: var(--grey-102-color);
+}
+
+
+.ButtonIconSecondaryListItem svg{
+    width: 20px;
+    height: 20px;
+    fill: var(--text-100-color) !important;
+}
+
+.ButtonIconSecondaryListItem{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 8px;
+    gap: 8px;
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    background: transparent;
+    border: none;
+    transition: all 0.2s ease-out;
+}
+.ButtonIconSecondaryListItem:hover{
+    background: var(--grey-101-color);
+}
+.ButtonIconSecondaryListItem:active{
+    background: var(--grey-102-color);
+}
+.ButtonIconSecondaryListItem:focus{
+    background: var(--grey-102-color);
+}

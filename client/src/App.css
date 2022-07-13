@@ -1,0 +1,106 @@
+*{
+  margin: 0 0;
+  padding:  0 0;
+  color: var(--text-100-color);
+}
+:root {
+  --grey-100-color:  #141414;
+  --grey-101-color:  #191919;
+  --grey-102-color:  #1E1E1E;
+  --grey-103-color:  #232323;
+  --grey-104-color:  #282828;
+  --grey-105-color:  #2D2D2D;
+  --grey-106-color:  #323232;
+  --grey-107-color:  #373737;
+  --grey-108-color:  #3C3C3C;
+  --grey-109-color:  #414141;
+  --text-100-color:  #FFFFFF;;
+  --text-101-color:  rgba(255, 255, 255, 0.56);
+  --text-102-color:  rgba(255, 255, 255, 0.32);
+  --button-default-color:  #282828;;
+  --button-hover-color:  #2D2D2D;
+  --button-active-color:  #323232;
+  --backdrop-color:rgba(0, 0, 0, 0.4);
+}
+html{
+  width: 100%;
+  scroll-behavior: smooth;
+  background-color: #141414;
+
+}
+*:focus {
+  outline: none;
+}
+h1{
+  font-family: 'Glysa';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 48px;
+  /* identical to box height, or 150% */
+  color: var(--text-100-color);
+}
+h2{
+  font-family: 'Glysa';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+  /* identical to box height, or 167% */
+  color: var(--text-100-color);
+}
+h3{
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  letter-spacing: 0.01em;
+
+  color: var(--text-100-color);
+}
+body{
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 0.01em;
+  color: var(--text-100-color);
+}
+.message{
+  font-family: 'Lexend Deca';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.01em;
+  justify-content: center;
+  color: var(--text-100-color);
+}
+.AppContainer{
+  padding-top: 96px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  overflow-x: hidden;
+  min-height: 90vh;
+}
+
+@media screen and (max-width: 700px) {
+  .AppContainer{
+    padding-top: 30px;
+    
+  }
+  
+  
+}
+@font-face {
+  font-family: 'Glysa';
+  src: url(./fonts/Glysa.otf) format('opentype');
+}
+@font-face {
+  font-family: 'Lexend Deca';
+  src: url(./fonts/LexendDeca-VariableFont_wght.ttf) format('truetype');
+}

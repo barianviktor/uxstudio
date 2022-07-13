@@ -1,0 +1,80 @@
+.contactFormContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 24px 0px 0px;
+    gap: 24px;
+
+    width: 364px;
+    height: 540px;
+
+    /* Grey / G 100 */
+
+    background: var(--grey-100-color);
+    border-radius: 8px;
+    z-index: 2;
+
+}
+.ContactFormInfo{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    width: 86%;
+    height: 404px;
+}
+.contactFormFooterNavigation {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: flex-end;
+    gap: 8px;
+
+    width: 86%;
+    height: 88px;
+    
+}
+
+
+.contactFormContainer__avatar__container img{
+    width: 100%;
+}
+
+
+
+.inputfile {
+	display: none;
+}
+
+.contactFormContainer__avatar__container{
+    border-radius: 180%;
+    height: 88px;
+    width: 88px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+
+.ContactFormImageHandler{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+
+    width: 100%;
+    height: 88px;
+}
+.ContactFormImageHandler input{
+    display: none;
+}
+.ContactFormImageHandler button:nth-child(1){
+    pointer-events: none;
+
+}

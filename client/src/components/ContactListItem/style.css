@@ -1,0 +1,107 @@
+.contactListItem_container{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 64px;
+}
+.contactListItem_container:hover .contactListItem_buttonContainer{
+    opacity: 1;
+}
+.contactListItem_info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+}
+.contactListItem_info_avatar_container{
+    width: 40px;
+    height: 40px;
+    border-radius: 180%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contactListItem_info_avatar_container img{
+    width: 100%;
+}
+.contactListItem_info_name_and_phone{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    letter-spacing: 0.01em;
+
+}
+.contactListItem_info_name_and_phone .message {
+    color: var(--text-101-color);
+    word-break: break-word
+}
+.contactListItem_buttonContainer{
+    position: relative;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 8px;
+    opacity: 0;
+    
+
+}
+.contactListItem_info_name_and_phone h3{
+    word-break: break-word
+}
+.contactListItem_settings_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px;
+    background-color: #1E1E1E;
+    border-radius: 8px;
+    position: absolute;
+    left:72%;
+    top: 120%;
+    overflow: hidden;
+    z-index: 2;
+}
+.settings_backDrop{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+
+}
+@media screen and (max-width: 700px) {
+    .contactListItem_container{
+        box-sizing: border-box;
+        flex-direction: column;
+        
+        justify-content: space-between;
+        min-height: 64px;
+        
+    }
+    .contactListItem_info{
+        justify-content: flex-start;
+        width: 85%;
+    }
+    .contactListItem_buttonContainer{
+        width: 75%;
+        justify-content: center;
+        margin: 15px 0;
+        
+        
+    }
+    .contactListItem_settings_container{
+        left: 0;
+        
+    }
+    .contactListItem_info_name_and_phone{
+        max-width: 75%;
+    }
+}
